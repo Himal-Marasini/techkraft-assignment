@@ -1,0 +1,9 @@
+allowBuilds:
+  '@nestjs/core': false
+  # native binaries used by jest
+  '@parcel/watcher': true
+  unrs-resolver: true
+  # optional native speed-up for bullmq; falls back to pure JS
+  msgpackr-extract: false
+  # install-time telemetry pulled in by swagger-ui-dist
+  '@scarf/scarf': false
